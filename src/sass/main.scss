@@ -1,0 +1,35 @@
+/* lightblue: #c9e6f7 */
+/* lightpink: #cf78b3 */
+/* lightbrown: #8e7b6f */
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import "abstracts/variables";
+
+
+@import 'base/base';
+@import 'base/animations';
+@import 'base/typogrophy';
+@import 'base/utils';
+
+@import "layout/grid";
+@import "layout/header";
+@import "layout/imagecontainer";
+
+@import "components/card";
+@import "components/button";
+
+@import "pages/home";
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=David+Libre:wght@700&display=swap');
+@import url('//fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css');
+/* lightblue: #c9e6f7 */
+/* lightpink: #cf78b3 */
+/* lightbrown: #8e7b6f */
+
+/*font-family: 'David Libre', serif;*/
+
+
+
+
+
+
