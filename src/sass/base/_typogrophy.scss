@@ -33,7 +33,16 @@ body{
   letter-spacing: .2rem;
   font-weight: bold;
 
+  &_detail{
+    color: $pink-primary-color;
+    font-size: 2rem;
+  }
   &-sub{
   font-size:$sub-heading-size;
+
+    &_detail{
+
+      font-size: 1.6rem;
+    }
 }
 }

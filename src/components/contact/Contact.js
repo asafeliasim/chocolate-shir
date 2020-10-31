@@ -1,7 +1,8 @@
 import React from 'react';
 import Divider from "../layout/Divider";
 import image from '../../asserts/images/‏about.PNG';
-
+import ContactForm from "./ContactForm";
+import ContactDetails from "./ContactDetails";
 const Contact = () => {
     return (
         <section className="section section-contact">
@@ -17,16 +18,17 @@ const Contact = () => {
                 </h4>
             </div>
             <div className="row">
-                <div className="col-1-of-3">
+                <div className="col-md-4 col-10 mx-auto">
+                    <ContactForm />
+                </div>
+                <div className="col-md-4 col-10 mx-auto">
+                   <ContactDetails />
+                </div>
+                <div className="col-md-4 col-10 mx-auto">
+
                     <div className="img_container">
                         <img src={image} alt="image_container-pink" className="img_container-pink"/>
                     </div>
-                </div>
-                <div className="col-1-of-3">
-                    טופס
-                </div>
-                <div className="col-1-of-3">
-                    כתובת וטלפונים
                 </div>
             </div>
         </section>

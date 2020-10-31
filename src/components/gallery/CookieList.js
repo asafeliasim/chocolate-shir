@@ -24,8 +24,8 @@ const p3bg = {
 const CookieList = () => {
     return (
         <div className="row cookie-list">
-            <div className="col-1-of-3">
-                <div className="card">
+            <div className="col-md-4 col-10 mx-auto">
+                <div  className="card">
                     <div className="card_side card_side-front">
                         <div className="card_picture" style={p1bg}>
                             &nbsp;
@@ -49,7 +49,7 @@ const CookieList = () => {
                                    <br></br>
                                    הטעם המיוחד שלה משתלב בכל זמן ביום ומתאים לכל גיל.
                                </p>
-                               <a href="#" className="btn btn-success btn-success-center">
+                               <a href="#" className="button button-success btn-success-center">
                                    להזמנה
                                </a>
                            </div>
@@ -57,7 +57,7 @@ const CookieList = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-1-of-3">
+            <div className="col-md-4 col-10 mx-auto">
                 <div className="card">
                     <div className="card_side card_side-front">
                         <div className="card_picture" style={p2bg}>
@@ -77,7 +77,7 @@ const CookieList = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-1-of-3">
+            <div className="col-md-4 col-10 mx-auto">
                 <div className="card">
                     <div className="card_side card_side-front">
                         <div className="card_picture" style={p3bg}>

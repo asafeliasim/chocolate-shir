@@ -1,4 +1,4 @@
-.btn{
+.button{
   &:link,
   &visited {
     text-decoration: none;
@@ -16,6 +16,21 @@
 
     &:hover{
       background-color: $pink-primary-color;
+      color: #fff;
+    }
+
+    &-center{
+      margin-right: 1.4rem;
+    }
+  }
+  &-primary{
+    background-color: white;
+    color: $brown-light-color;
+    font-weight: bold;
+    border: 1px solid $brown-light-color;
+
+    &:hover{
+      background-color:  $brown-light-color;
       color: #fff;
     }
 

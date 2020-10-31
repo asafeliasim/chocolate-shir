@@ -1,0 +1,18 @@
+.section_about{
+  padding-bottom:20rem;
+}
+.logo_container{
+  display: flex;
+  justify-content: center;
+  margin-top: -10rem;
+  &-logo{
+    width: 30rem;
+    height: auto;
+  }
+}
+.img_container{
+  padding-top: 5rem;
+  &-img{
+    border: 2px solid $pink-primary-color;
+  }
+}

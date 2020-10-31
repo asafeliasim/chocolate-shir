@@ -73,9 +73,11 @@
 }
 .card_details-box{
 
+  direction: rtl!important;
   &-description{
     font-size: 2.2rem;
     margin-bottom: 2rem;
+
   }
 }
 
