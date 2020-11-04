@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import OrderModal from "../order/OrderModal";
 
-const CookieCard = ({bgStyle,name}) => {
+const CookieCard = ({bgStyle,name,fills,types}) => {
     const [openOrder,setOpenOrder] = useState(false);
 
     const handleOpen = () =>{
@@ -28,7 +28,7 @@ const CookieCard = ({bgStyle,name}) => {
                         למלא לחץ כאן
                     </a>
                 </div>
-                <OrderModal openDialog={openOrder} closeHandle={closeHandle}/>
+                <OrderModal openDialog={openOrder} closeHandle={closeHandle} fills={fills} types={types}/>
             </div>
 
         </div>

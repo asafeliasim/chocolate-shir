@@ -1,21 +1,37 @@
+.shir_navbar{
+  background: #fff!important;
+  padding: 0 4rem;
+  &_list{
+    padding-right: 4.5rem;
+  }
+  &_link{
+    text-decoration: none;
+    color: $brown-light-color!important;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin: 0 1rem;
+    transition: .2s linear;
+    &:hover{
+      text-decoration: none;
+      color: $pink-primary-color!important;
+    }
+
+
+  }
+}
 .navbar{
+  &_shir{
+    background: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
   &_container{
     display: inline-flex;
     list-style-type: none;
     padding: 4rem 4rem;
   }
 
-  &_link{
-    text-decoration: none;
-    color: $brown-light-color;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 2.2rem;
-    margin: 0 1.5rem;
-    transition: .2s linear;
-    &:hover{
-      text-decoration: none;
-      color: $pink-primary-color;
-    }
-  }
+
 }

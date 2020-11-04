@@ -2,7 +2,8 @@ import React,{useState,useEffect} from 'react';
 
 // ---------- COMPONENTS -------------------//
 import CheckBoxList from "./CheckBoxList";
-import CookieCounter from "./CookieCounter"
+import CookieCounter from "./CookieCounter";
+import CookieType from "./CookieType";
 // MATERIAL UI COMPONENTS //
 import Dialog from '@material-ui/core/Dialog';
 import DialogTitle from '@material-ui/core/DialogTitle';
@@ -13,7 +14,7 @@ import {useStyles} from "./material-css/orderStyle";
 
 import shirLogo from '../../asserts/images/‏‏shirlogo.PNG';
 
-const OrderModal = ({openDialog,closeHandle}) => {
+const OrderModal = ({openDialog,closeHandle,fills,types}) => {
     console.log("open dialog")
     console.log(openDialog)
     const [open,setOpen] = useState(false);
@@ -53,14 +54,13 @@ const OrderModal = ({openDialog,closeHandle}) => {
 
                 </DialogTitle>
                 <DialogContent>
-                    <CheckBoxList />
+                    <CheckBoxList fills={fills}/>
                     <CookieCounter />
+                    {types && types.length > 0 && <CookieType types={types}/>}
                     <div className="d-flex justify-content-center mt-5">
 
                         <a
-                            style={{
 
-                            }}
                             className="button button-success button-success-small"
                         >
                             להזמנה
