@@ -20,11 +20,15 @@
   border: .1rem solid $brown-light-color;
   background-color: $brown-light-color;
   width: 40rem;
+  @media (max-width: 600px) {
+    width: 10rem;
+  }
 }
 .cookie-divider{
-  padding: 2rem 2rem;
+  padding: 1rem 2rem;
 }
 .transition{
+  margin-top: 10rem;
   height: 80rem;
-  clip-path: polygon(0 25%,100% 0,100% 75%,0 100%);
+  clip-path: polygon(0 15%,100% 0,100% 85%,0 100%);
 }

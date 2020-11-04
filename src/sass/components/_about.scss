@@ -1,5 +1,6 @@
 .section_about{
-  padding-bottom:20rem;
+  padding-bottom:10rem;
+  position: relative;
 }
 .logo_container{
   display: flex;
@@ -11,8 +12,16 @@
   }
 }
 .img_container{
+  position: relative;
   padding-top: 5rem;
   &-img{
+    display: block;
+    width: 80%;
     border: 2px solid $pink-primary-color;
   }
+}
+.scroll{
+  position: absolute;
+  bottom: 2rem;
+  left: 48%;
 }

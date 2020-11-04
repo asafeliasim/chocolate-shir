@@ -4,21 +4,20 @@ const FooterLinks = () => {
     return (
         <div className="footer_container-links d-flex pt-5 justify-content-around">
             <div className="d-flex">
-                <h3 className="footer_container-links-header">
+                <a href="#header" className="footer_container-links-header">
                     ראשי
-                </h3>
+                </a>
+            </div>
+            <div className="d-flex">
+                    <a href="#gallery" className="footer_container-links-header">
+                        גלרייה
+                    </a>
                 <hr className="footer_container-links-divider"/>
             </div>
             <div className="d-flex">
-                <h3 className="footer_container-links-header">
-                    גלרייה
-                </h3>
-                <hr className="footer_container-links-divider"/>
-            </div>
-            <div className="d-flex">
-                <h3 className="footer_container-links-header">
+                <a  href="#contact" className="footer_container-links-header">
                     צור קשר
-                </h3>
+                </a>
                 <hr className="footer_container-links-divider"/>
             </div>
         </div>

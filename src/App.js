@@ -6,6 +6,7 @@ import ImageTransition from "./components/layout/ImageTransition";
 import {firstBG,secondBG} from "./components/layout/backGround";
 import About from "./components/about/About";
 import Footer from './components/layout/footer/Footer';
+import OrderList from "./components/order/OrderList";
 // components
 
 import Header from "./components/layout/Header";
@@ -18,6 +19,7 @@ function App() {
       <CookieDivider />
       <main>
           <Cookies />
+          <OrderList />
           <CookieDivider />
           <ImageTransition bg={firstBG}/>
           <CookieDivider />

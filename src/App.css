@@ -10,21 +10,21 @@
 *::before{
     margin:0;
     padding:0;
-    box-sizing: inherit;
+  /*  box-sizing: inherit;*/
 
 }
 html{
     font-size:62.5%;
 }
-body{
+/*body{
     font-family: 'Assistant', sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
     color:  #8e7b6f;
-    padding: 3rem;
+       !* padding: 3rem;*!
 
-    box-sizing: border-box;
-}
+  !*  box-sizing: border-box;*!
+}*/
 .header{
     position: relative;
     height: 90vh;

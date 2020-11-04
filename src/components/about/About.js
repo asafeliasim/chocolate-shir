@@ -2,12 +2,13 @@ import React from 'react';
 import Divider from "../layout/Divider";
 import shirLogo from '../../asserts/images/‏‏shirlogo.PNG';
 import product3 from '../../asserts/images/product-3.PNG';
+import ScrollUp from "../layout/ScrollUp";
 
 const About = () => {
     return (
-        <div className="section section_about">
+        <div className="section section_about" id="about">
             <div className="row">
-                <div className="col-md-6 col-sm-10 mx-auto">
+                <div className="col-md-6 mx-auto col-sm-12 ">
                     <div className="u-center-text cookies-row">
                         <h2 className="heading-secondary">
                             טעימה משוקולד שיר
@@ -26,11 +27,14 @@ const About = () => {
                         <img src={shirLogo} alt="" className="logo_container-logo"/>
                     </div>
                 </div>
-                <div className="col-md-6 col-sm-10 mx-auto">
-                    <div className="img_container">
+                <div className="col-md-6 col-sm-12 ">
+                    <div className="img_container mx-auto">
                         <img src={product3} alt="" className="img_container-img"/>
                     </div>
                 </div>
+            </div>
+            <div className="row d-flex justify-content-center scroll">
+                <ScrollUp />
             </div>
         </div>
     );

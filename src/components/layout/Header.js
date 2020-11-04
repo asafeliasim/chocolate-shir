@@ -1,7 +1,7 @@
 import React from 'react';
 import img from '../../asserts/images/‏‏headerBG.PNG';
 import logo from '../../asserts/images/‏‏shirlogo.PNG';
-
+import Navbar from "../layout/Navbar";
 
 const style = {
     backgroundImage: `linear-gradient(to right,rgba(201, 230, 247, 0.8),rgba(233, 245, 251, 0.8)),url(${img})`,
@@ -11,11 +11,11 @@ const style = {
 }
 const Header = () => {
     return (
-        <header className="header" style={style}>
+        <header className="header" style={style} id="header">
            <div className="header_logo-box">
                <img src={logo} alt="Shir-Logo" className="header_logo"/>
            </div>
-
+            <Navbar />
             <div className="header_text-box">
                 <h1 className="heading-primary">
                 <span className="heading-primary-main">

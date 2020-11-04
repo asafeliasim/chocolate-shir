@@ -11,8 +11,12 @@
   &-header{
     font-size: 2.5rem;
     font-weight: bold;
+    text-decoration: none;
+    color: $brown-light-color;
     &:hover{
       cursor: pointer;
+      text-decoration: none;
+      color: $brown-light-color;
     }
   }
   &-divider{

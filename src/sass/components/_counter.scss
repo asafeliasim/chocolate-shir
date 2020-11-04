@@ -1,0 +1,17 @@
+.cookie-counter{
+  display: flex;
+  justify-content: center;
+
+  &-p{
+    font-size: 2.5rem;
+    color: $brown-light-color;
+
+  }
+}
+.input-group-button {
+  .circle {
+    border-radius: 50%;
+    padding: 0.5em 0.8em;
+    color: $pink-primary-color;
+  }
+}

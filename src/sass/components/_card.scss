@@ -17,20 +17,20 @@
     width: 100%;
     backface-visibility: hidden;
     &-front{
-      background-color: #fff;
+      background-image: linear-gradient(rgba(201, 230, 247, 0.8),rgba(233, 245, 251, 0.8));
     }
     &-back{
-      background-color: white;
+      background-image: linear-gradient(rgba(201, 230, 247, 0.8),rgba(233, 245, 251, 0.8));
       transform: rotateY(180deg);
     }
   }
 
   &:hover &_side-front{
     cursor: pointer;
-    transform: rotateY(-180deg);
-    box-shadow: .2rem .1rem .5rem #fff;
+
   }
   &:hover &_side-back{
+    background-image: linear-gradient(rgba(201, 230, 247, 0.8),rgba(233, 245, 251, 0.8));
     cursor: pointer;
     transform: rotateY(0);
   }
@@ -45,7 +45,7 @@
     font-weight: bold;
     color: $brown-light-color;
     position: absolute;
-    top: 29rem;
+    top: 25rem;
     right: 2rem;
     width: 75%;
 
@@ -81,3 +81,9 @@
   }
 }
 
+.card_button{
+  position: absolute;
+  bottom: 25px;
+  left: 40%;
+
+}

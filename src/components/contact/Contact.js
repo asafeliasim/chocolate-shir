@@ -5,7 +5,7 @@ import ContactForm from "./ContactForm";
 import ContactDetails from "./ContactDetails";
 const Contact = () => {
     return (
-        <section className="section section-contact">
+        <section id="contact" className="section section-contact">
             <div className="u-center-text cookies-row">
                 <h2 className="heading-secondary">
                    צור קשר

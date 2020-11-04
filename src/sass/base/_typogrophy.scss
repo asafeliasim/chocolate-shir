@@ -33,6 +33,9 @@ body{
   letter-spacing: .2rem;
   font-weight: bold;
 
+  &-modal{
+    font-size: 2rem;
+  }
   &_detail{
     color: $pink-primary-color;
     font-size: 2rem;
@@ -44,5 +47,5 @@ body{
 
       font-size: 1.6rem;
     }
-}
+  }
 }

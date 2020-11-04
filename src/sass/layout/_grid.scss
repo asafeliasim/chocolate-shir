@@ -1,8 +1,12 @@
 .section{
   padding-top: 10rem;
 }
-
-.row{
+.my_row{
+  max-width:$grid-width;
+  margin: 0 auto;
+  margin-bottom: $gutter-vertical;
+}
+/*.row{
   max-width:$grid-width;
   margin: 0 auto;
   margin-bottom: $gutter-vertical;
@@ -32,5 +36,5 @@
     width: calc((100% - 3 * #{$gutter-horizontal})/4);
   }
 
-}
+}*/
 
