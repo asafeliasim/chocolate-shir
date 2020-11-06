@@ -5,7 +5,7 @@
 .logo_container{
   display: flex;
   justify-content: center;
-  margin-top: -10rem;
+  margin-top:10rem;
   &-logo{
     width: 30rem;
     height: auto;
@@ -22,6 +22,6 @@
 }
 .scroll{
   position: absolute;
-  bottom: 2rem;
+  bottom: -2rem;
   left: 48%;
 }

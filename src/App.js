@@ -11,24 +11,13 @@ import OrderList from "./components/order/OrderList";
 
 import Header from "./components/layout/Header";
 import Contact from "./components/contact/Contact";
-import {FaShoppingCart} from "react-icons/fa";
 import ShirNavbar from "./components/layout/ShirNavbar";
 
-
-
-const CartIcon = () => {
-    return (
-        <div className="navbar_link-cart">
-            <a href="#about" className="navbar_link">
-                <FaShoppingCart className="navbar_link-cart-icon"/>
-            </a>
-        </div>
-    )
-}
 
 function App() {
   return (
     <>
+
       <ShirNavbar />
       <Header />
       <CookieDivider />

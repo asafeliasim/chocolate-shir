@@ -5,9 +5,9 @@ import {useStyles} from './material-css/counterStyle';
 import Select from "@material-ui/core/Select";
 
 
-const CookieType = ({types}) => {
+const CookieType = ({setType,types}) => {
     const classes = useStyles();
-    const [type,setType]=useState(1)
+    const [type,setTypes]=useState(1)
 
     const handleChange = (event) => {
         setType(event.target.value);

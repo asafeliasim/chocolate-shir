@@ -28,7 +28,7 @@ const CookieCard = ({bgStyle,name,fills,types}) => {
                         למלא לחץ כאן
                     </a>
                 </div>
-                <OrderModal openDialog={openOrder} closeHandle={closeHandle} fills={fills} types={types}/>
+                <OrderModal openDialog={openOrder} closeHandle={closeHandle} fills={fills} types={types} name={name}/>
             </div>
 
         </div>

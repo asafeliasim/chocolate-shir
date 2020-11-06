@@ -5,13 +5,13 @@ import {useStyles} from './material-css/counterStyle';
 import Select from "@material-ui/core/Select";
 
 
-const CookieCounter = () => {
+const CookieCounter = ({onCounter}) => {
     const classes = useStyles();
     const [counter,setCounter] = useState(0);
 
 
     const handleChange = (event) => {
-       setCounter(event.target.value);
+        onCounter(event.target.value);
     };
 
     return (

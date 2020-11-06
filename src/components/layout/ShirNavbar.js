@@ -2,8 +2,8 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import shirLogo from '../../asserts/images/‏‏shirlogo.PNG';
-
-
+import {FaShoppingCart} from 'react-icons/fa';
+import {FaCookieBite} from 'react-icons/fa';
 const ShirNavbar = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" className="shir_navbar pl-4">
@@ -14,6 +14,11 @@ const ShirNavbar = () => {
                     <Nav.Link href="#gallery" className="shir_navbar_link mx-5"> גלריית טעימות</Nav.Link>
                     <Nav.Link href="#contact" className="shir_navbar_link mx-5">צור קשר</Nav.Link>
                     <Nav.Link href="#about" className="shir_navbar_link mx-5">טעימה עלינו</Nav.Link>
+                    <Nav.Link href="#about" className="shir_navbar_link mx-5">
+                        <FaCookieBite style={{marginLeft:'1rem',width:'2.5rem'}}/>
+                        סל העוגיות שלי
+
+                    </Nav.Link>
                 </Nav>
                 <Nav>
 
