@@ -1,4 +1,4 @@
-import product1 from "../../../asserts/images/product-1.PNG";
+import product1 from "../../../asserts/images/butter.jpeg";
 import product3 from "../../../asserts/images/karmel.jpeg";
 import product2 from "../../../asserts/images/cocaoProduct.jpeg";
 import product4 from '../../../asserts/images/classicProduct.jpeg';
