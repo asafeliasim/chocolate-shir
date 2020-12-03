@@ -1,7 +1,7 @@
-#heading
+
 This project build in React,SCSS using react-bootstrap and material ui.
 
-# run on your local
+
 In the project directory, you can run:
 npm start.
 
