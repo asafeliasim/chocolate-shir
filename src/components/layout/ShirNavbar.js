@@ -2,8 +2,8 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import shirLogo from '../../asserts/images/‏‏shirlogo.PNG';
-import {FaShoppingCart} from 'react-icons/fa';
 import {FaCookieBite} from 'react-icons/fa';
+
 const ShirNavbar = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" className="shir_navbar pl-4">
@@ -22,7 +22,7 @@ const ShirNavbar = () => {
                 </Nav>
                 <Nav>
 
-                    <Navbar.Brand href="#" className="pr-4">
+                    <Navbar.Brand href="#" className="pr-4 brand">
                         <img
                             src={shirLogo}
                             width="100"

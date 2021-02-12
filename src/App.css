@@ -15,27 +15,19 @@
 }
 html{
     font-size:62.5%;
+    height: 100%;
+    width:100%;
 }
-/*body{
-    font-family: 'Assistant', sans-serif;
-    font-size: 1.6rem;
-    line-height: 1.5;
-    color:  #8e7b6f;
-       !* padding: 3rem;*!
 
-  !*  box-sizing: border-box;*!
-}*/
 .header{
     position: relative;
     height: 90vh;
-
     clip-path: polygon(0 0,100% 0,100% 75%,0 100%);
 }
 .logo-box{
     position: absolute;
     top: 4rem;
     left: 4rem;
-
 }
 .logo{
     height:12rem;

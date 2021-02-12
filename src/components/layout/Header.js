@@ -15,9 +15,9 @@ const Header = () => {
 
             <div className="header_text-box">
                 <h1 className="heading-primary">
-                <span className="heading-primary-main">
-                     שוקולד שיר
-                </span>
+                    <span className="heading-primary-main">
+                         שוקולד שיר
+                    </span>
                     <span className="heading-primary-sub">
                     כל ביס מרגיש כמו הפעם הראשונה
                 </span>

@@ -28,7 +28,7 @@ const About = () => {
                         <img src={shirLogo} alt="" className="logo_container-logo"/>
                     </div>
                 </div>
-                <div className="col-md-6 col-sm-12 ">
+                <div className="col-md-6 col-sm-12">
                     <div className="img_container mx-auto">
                         <img src={product3} alt="" className="img_container-img"/>
                     </div>

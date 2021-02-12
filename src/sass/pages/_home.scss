@@ -1,6 +1,9 @@
 .section-cookies{
   background: #fff;
-  padding: 20rem 0;
+  padding: $desktop-padding;
+  @media screen and (max-width: 960px) {
+     padding: $mobile-padding;
+  }
 }
 .cookies-row{
   margin-bottom: 10rem;

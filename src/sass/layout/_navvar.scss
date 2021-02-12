@@ -1,6 +1,12 @@
 .shir_navbar{
   background: #fff!important;
   padding: 0 4rem;
+  @media screen and (max-width: 960px){
+    background: transparent;
+    position: fixed;
+    top: 0;
+    //height: 5rem!important;
+  }
   &_list{
     padding-right: 4.5rem;
   }
@@ -34,4 +40,13 @@
   }
 
 
+}
+.navbar-light .navbar-toggler {
+  border: none!important;
+  padding: 1rem 0;
+}
+.brand{
+  @media screen and (max-width: 960px) {
+    margin: 0 auto;
+  }
 }

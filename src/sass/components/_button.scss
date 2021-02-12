@@ -20,18 +20,18 @@
    }
   }
   &-success{
-    background-color: white;
-    color: $pink-primary-color!important;
+    background-color:  $pink-primary-color;
+    color: white!important;
     border: .2rem solid $pink-primary-color;
-    padding: 4px 2.5rem;
+    padding: 5px 2.5rem;
     border-radius: 5px;
-
+    cursor: pointer;
     &-small{
       font-size: 16px;
     }
 
     &:hover{
-      cursor: pointer;
+
       background-color: $pink-primary-color;
       color: #fff!important;
     }
