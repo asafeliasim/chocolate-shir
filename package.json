@@ -2,11 +2,7 @@
   "name": "chocolate-chir",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
-  "engines": {
-=======
    "engines": {
->>>>>>> e9a750d757845562605779da45f00dc5166109ac
     "node": "14.15.5"
   },
   "dependencies": {
